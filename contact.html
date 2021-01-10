@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>My profile</title>
+  </head>
+  <style>
+    html,
+    body {
+      margin: 0px;
+      padding: 0px;
+    }
+    body {
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+    .nav {
+      border: none;
+      margin-left: 50px;
+    }
+    .heading_contact {
+      margin-left: 520px;
+      margin-top: 50px;
+      font-size: 40px;
+      font-weight: 800;
+      color: gray;
+    }
+    .TOUCH {
+      color: skyblue;
+    }
+    .box {
+      margin-top: 50px;
+      margin-left: 200px;
+      height: 400px;
+      width: 400px;
+    }
+    .head {
+      font-size: 20px;
+      font-weight: 800;
+      font-weight: bolder;
+      color: grey;
+    }
+    .sub_head {
+      font-size: 15px;
+      color: grey;
+    }
+    .fas {
+      margin-top: 10px;
+      font-size: 30px;
+    }
+    .logo {
+      font-size: 20px;
+
+      margin: 8px;
+      border-radius: 50%;
+    }
+    .inpu {
+      width: 200px;
+      border-radius: 20px;
+      margin-left: 25px;
+    }
+    .area {
+      margin-top: 20px;
+      margin-left: 20px;
+      border-radius: 20px;
+    }
+    .mess {
+      border-radius: 15px;
+      margin-top: 10px;
+      margin-left: 20px;
+    }
+    .animate__animated.animate__bounceInDown {
+      --animate-duration: 1s;
+    }
+    .animate__animated.animate__backInRight {
+      --animate-duration: 2s;
+    }
+  </style>
+  <body class="animate__animated animate__bounceInDown">
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" id="navId">
+      <li class="nav-item">
+        <a href="index.html" class="nav-link">Home</a>
+      </li>
+
+      <li class="nav-item">
+        <a href="ABOUT.html" class="nav-link">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a href="contact.html" class="nav-link">Contact</a>
+      </li>
+    </ul>
+
+    <div class="row">
+      <div class="col-12">
+        <div class="heading_contact animate__animated animate__backInRight">
+          GET IN <span class="TOUCH">TOUCH</span>
+        </div>
+      </div>
+      <div class="box float-left">
+        <div class="head">DON'T BE SHY !</div>
+        <div class="sub_head">
+          Feel free to get in touch with me. I am always open to discussing new
+          projects, creative ideas or opportunities to be part of your visions.
+        </div>
+        <div>
+          <i class="fas fa-envelope-open text-primary"></i>
+          <span class="sub_head">MAIL ME</span><br />
+          <span class="sub_head" style="font-weight: bold"
+            >kirans41234@gmail.com</span
+          >
+        </div>
+        <div>
+          <i class="fas fa-phone-square-alt text-primary"></i>
+          <span class="sub_head">CONTACT ME</span><br />
+          <span class="sub_head" style="font-weight: bold">9960455716</span>
+        </div>
+        <div>
+          <button class="logo btn btn-outline-primary">
+            <i class="fab fa-facebook-f"></i>
+          </button>
+          <button class="logo btn btn-outline-primary">
+            <i class="fab fa-instagram"></i>
+          </button>
+          <button class="logo btn btn-outline-primary">
+            <i class="fab fa-twitter"></i>
+          </button>
+          <button class="logo btn btn-outline-primary">
+            <i class="fab fa-github"></i>
+          </button>
+        </div>
+      </div>
+      <div class="float-right">
+        <div class="d-flex mt-5">
+          <span
+            ><input
+              type="text"
+              class="form-control inpu"
+              placeholder="Your Name "
+          /></span>
+          <span
+            ><input
+              type="text"
+              class="form-control inpu"
+              placeholder="Your Email"
+          /></span>
+          <span
+            ><input
+              type="text"
+              class="form-control inpu"
+              placeholder="Your Subject"
+          /></span>
+        </div>
+        <span>
+          <textarea
+            class="form-control area"
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+          ></textarea>
+        </span>
+        <button class="btn btn-outline-primary mess">Send Message</button>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="../js/popper.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+  </body>
+</html>

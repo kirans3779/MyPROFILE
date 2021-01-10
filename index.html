@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>My profile</title>
+  </head>
+  <style>
+    html,
+    body {
+      margin: 0px;
+      padding: 0px;
+    }
+    body {
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      background-image: url("img/back.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .nav {
+      border: none;
+      margin-left: 50px;
+    }
+    .welcome {
+      font-size: 20px;
+      margin-top: 150px;
+      margin-left: 90px;
+    }
+    .main_heading {
+      font-size: 30px;
+      margin-left: 30px;
+      letter-spacing: 1px;
+    }
+    .get {
+      margin-top: 20px;
+      margin-left: 80px;
+    }
+  </style>
+  <body class="animate__animated animate__bounceInDown">
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" id="navId">
+      <li class="nav-item">
+        <a href="index.html" class="nav-link">Home</a>
+      </li>
+
+      <li class="nav-item">
+        <a href="ABOUT.html" class="nav-link">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a href="contact.html" class="nav-link">Contact</a>
+      </li>
+    </ul>
+
+    <div class="welcome">
+      <span>Welcome To My Site</span>
+    </div>
+    <div><span class="main_heading">HI'AM KIRAN SONWANE</span></div>
+
+    ><button class="btn btn-outline-primary get" onclick="next()">
+      Get In Touch With Me
+    </button>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="../js/popper.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script>
+      function next() {
+        window.location.href = "contact.html";
+      }
+    </script>
+  </body>
+</html>
