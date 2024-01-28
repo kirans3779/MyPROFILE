@@ -1,0 +1,50 @@
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: Poppins;
+    
+}
+.bg-blk{
+background-color: #000;
+color: #fff;;
+}
+
+    .profile-img-card,.profile-img-card img{
+           border-radius: 10px 50px 10px 50px;
+           
+    }
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background-color: #e6ff00 !important;
+    padding: 16px;
+    border-radius: 50%;
+    position: fixed;
+    right: 100px;
+    top:60px;
+}
+.heading h3{
+letter-spacing: 0.1rem;
+}
+.personal-details{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.details-list{
+   flex: 33.33%;
+    
+}
+.details-list i{
+    color:#e6ff00;
+}
+.profile-dis p{
+    margin-top: 20px;
+font-size: 18px;
+color: #b0b0b0;
+line-height: 1.6rem;
+}
+
