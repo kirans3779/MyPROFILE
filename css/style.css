@@ -10,7 +10,7 @@ color: #fff;;
 }
 
     .profile-img-card,.profile-img-card img{
-           border-radius: 10px 50px 10px 50px;
+           border-radius: 20px 130px 20px 130px;
            
     }
 .menu{
@@ -28,6 +28,9 @@ color: #fff;;
 }
 .menu .fa-solid.fa-bars{
     color:#000;
+}
+#text-write{
+color:#e6ff00;
 }
 .heading h3{
 letter-spacing: 0.1rem;
@@ -55,13 +58,17 @@ height:100%;
     width:100%;
 }
 @media only screen and (max-width: 767px) {
-    .profile-img-card{
-        height: 60vh;
-    }
+    /* .profile-img-card{
+        height: 70vh;
+    } */
     img{
         min-height:100%;
             min-width:100%;
         }
+        h1{
+            
+            font-size: 26px;
+            }
     .menu{
    top:50px;
      right:20px;
