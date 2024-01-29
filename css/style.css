@@ -55,7 +55,10 @@ height:100%;
     width:100%;
 }
 @media only screen and (max-width: 767px) {
- .menu{
+    .profile-img-card{
+        height: 80vh;
+    }
+    .menu{
    top:50px;
      right:20px;
  }
