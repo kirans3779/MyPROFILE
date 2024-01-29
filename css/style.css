@@ -2,7 +2,10 @@ body{
     margin:0px;
     padding: 0px;
     font-family: Poppins;
-    overflow: hidden;
+    
+}
+.container{
+    overflow-x: hidden;
 }
 .bg-blk{
 background-color: #000;
