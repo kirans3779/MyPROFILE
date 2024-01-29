@@ -26,6 +26,9 @@ color: #fff;;
     right: 100px;
     top:60px;
 }
+.menu .fa-solid.fa-bars{
+    color:#000;
+}
 .heading h3{
 letter-spacing: 0.1rem;
 }
