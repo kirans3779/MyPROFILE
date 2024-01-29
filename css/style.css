@@ -56,7 +56,7 @@ height:100%;
 }
 @media only screen and (max-width: 767px) {
     .profile-img-card{
-        height: 70vh;
+        height: 60vh;
     }
     img{
         min-height:100%;
